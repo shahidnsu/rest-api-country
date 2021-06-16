@@ -16,7 +16,7 @@ const CountryData = () => {
     },[])
     const renderedCountry = countries.map (country => <Country key ={country.alpha2Code} country ={country}/>)
     return (
-        <div className="container fluid row">
+        <div className="container fluid row justify-content-center align-items-center ">
             {renderedCountry}
         </div>
     );
